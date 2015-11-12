@@ -18,6 +18,9 @@ public class NotePlayer
 		note = new Note();
 	}
 	
+	/**
+	 * Plays the preselected note
+	 */
 	public void playNote()
 	{
 		//Play the note
