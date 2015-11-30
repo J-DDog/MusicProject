@@ -1,8 +1,7 @@
 package flintspark.controller;
 
-import jm.JMC;
-
 import flintspark.model.NotePlayer;
+import jm.JMC;
 import flintspark.view.NoteView;
 
 public class Controller
@@ -75,11 +74,11 @@ public class Controller
 		}
 		else if(input.equalsIgnoreCase("n"))
 		{
-			keyFound = JMC.A4;
+			keyFound = JMC.A3;
 		}
 		else if(input.equalsIgnoreCase("m"))
 		{
-			keyFound = JMC.B4;
+			keyFound = JMC.B3;
 		}
 		else if(input.equalsIgnoreCase("s"))
 		{
@@ -99,7 +98,7 @@ public class Controller
 		}
 		else if(input.equalsIgnoreCase("j"))
 		{
-			keyFound = JMC.AS4;
+			keyFound = JMC.AS3;
 		}
 		
 		return keyFound;

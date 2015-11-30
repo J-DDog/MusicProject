@@ -22,7 +22,7 @@ public class NoteView
 		String responce = "";
 		
 		System.out.println(question + "\n");
-		responce = noteScanner.nextLine();
+		responce = noteScanner.next();
 		
 		return responce;
 	}
